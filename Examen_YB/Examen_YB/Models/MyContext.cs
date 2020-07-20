@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Examen_YB.Models
 {
-    public class MyContext : DbContext
+    public class MyContext : IdentityDbContext<IdentityUser>
     {
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Historique> Historiques { get; set; }
