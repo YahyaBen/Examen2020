@@ -177,3 +177,4 @@ C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcore
 C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Patients\Details.cshtml.g.cs
 C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Patients\Edit.cshtml.g.cs
 C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Patients\Index.cshtml.g.cs
+C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Patients\Declarer_Deces.cshtml.g.cs

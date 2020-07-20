@@ -149,5 +149,39 @@ namespace Examen_YB.Controllers
         {
             return _context.Patients.Any(e => e.Id == id);
         }
+        public async Task<IActionResult> Declarer_Deces(int? id)
+        {
+            var patient = await _context.Patients
+                            .FirstOrDefaultAsync(m => m.Id == id);
+            patient.Deces = true;
+            if (id != patient.Id)
+            {
+                return NotFound();
+            }
+            patient.Deces=true;
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(patient);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!PatientExists(patient.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(patient);
+        }
     }
+
+               
 }
