@@ -65,3 +65,6 @@ C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\bin\Debug\netcore
 C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Examen_YB.csproj.CoreCompileInputs.cache
+C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Examen_YB.MvcApplicationPartsAssemblyInfo.cache

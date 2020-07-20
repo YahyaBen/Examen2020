@@ -2,9 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Examen_YB.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,6 +26,10 @@ namespace Examen_YB
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<MyContext>(options =>
+            {
+               options.UseSqlServer(Configuration.GetConnectionString("default"));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -32,12 +38,6 @@ namespace Examen_YB
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-
-
-                //services.AddDbContext<MyContext>(options =>
-                //{
-                //   options.UseSqlServer(Configuration.GetConnectionString("default"));
-                //});
             }
             else
             {
