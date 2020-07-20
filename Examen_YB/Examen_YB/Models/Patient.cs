@@ -20,6 +20,11 @@ namespace Examen_YB.Models
         public string Prenom { get; set; }
         [Required]// Obligatoire
         [Range(0, Double.PositiveInfinity)] // Positive strict.
+        [NotMapped]
+        public string NomComplet
+        {
+            get { return Nom + "-" + Prenom; }
+        }
         public int Age { get; set; }
         public string Sexe { get; set; }
         public bool Deces { get; set; }
