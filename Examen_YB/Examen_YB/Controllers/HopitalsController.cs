@@ -81,7 +81,7 @@ namespace Examen_YB.Controllers
             {
                 return NotFound();
             }
-            ViewData["VilleId"] = new SelectList(_context.Villes, "Id", "Id", hopital.VilleId);
+            ViewData["VilleId"] = new SelectList(_context.Villes, "Id", "Libelle", hopital.VilleId);
             return View(hopital);
         }
 
