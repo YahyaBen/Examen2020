@@ -55,6 +55,7 @@ namespace Examen_YB.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nom,Prenom,Age,Sexe,Deces")] Patient patient)
         {
+            
             if (ModelState.IsValid)
             {
                 _context.Add(patient);
