@@ -26,6 +26,7 @@
                 <label asp-for="HopitalId" class="control-label"></label>
                 <select asp-for="HopitalId" class ="form-control" asp-items="ViewBag.HopitalId"></select>
             </div>
+            <div id="Help_1"> </div>
             <div class="form-group">
                 <label asp-for="PatientId" class="control-label"></label>
                 <select asp-for="PatientId" class ="form-control" asp-items="ViewBag.PatientId"></select>
@@ -43,4 +44,16 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+<script>
+    $(document).ready(function () {
+        $("#HopitalId").change(function () {
+            $.get({
+                url: "/Hopitals/GetData",
+                data: { "id": $("#HopitalId").val() },
+                success: function (response) {
+                    $("#Help_1").html(response);
+                }
+            });
+        });
+        </script>
 }

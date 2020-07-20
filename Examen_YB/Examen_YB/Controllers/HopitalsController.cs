@@ -155,5 +155,15 @@ namespace Examen_YB.Controllers
         {
             return _context.Hopitals.Any(e => e.Id == id);
         }
+        public async Task<IActionResult> GetData(int id)
+        {
+            var hopital = await _context.Hopitals.FindAsync(id);
+            ViewBag.Hopital = hopital.Libelle;
+            var count = _context.Hopitals
+            .Where(o => o.Id == id)
+            .Count();
+            ViewBag.Count = count.ToString();
+            return PartialView(hopital);
+        }
     }
 }

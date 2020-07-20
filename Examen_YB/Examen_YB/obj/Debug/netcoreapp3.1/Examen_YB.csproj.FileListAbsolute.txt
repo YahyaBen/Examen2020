@@ -183,3 +183,4 @@ C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcore
 C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Historiques\Details.cshtml.g.cs
 C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Historiques\Edit.cshtml.g.cs
 C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Historiques\Index.cshtml.g.cs
+C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Hopitals\GetData.cshtml.g.cs
