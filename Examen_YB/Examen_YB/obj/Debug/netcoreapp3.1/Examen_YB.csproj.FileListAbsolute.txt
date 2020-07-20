@@ -167,3 +167,8 @@ C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcore
 C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Villes\Details.cshtml.g.cs
 C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Villes\Edit.cshtml.g.cs
 C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Villes\Index.cshtml.g.cs
+C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Hopitals\Create.cshtml.g.cs
+C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Hopitals\Delete.cshtml.g.cs
+C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Hopitals\Details.cshtml.g.cs
+C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Hopitals\Edit.cshtml.g.cs
+C:\Users\Hyrku\source\repos\examen_2020_yb\Examen_YB\Examen_YB\obj\Debug\netcoreapp3.1\Razor\Views\Hopitals\Index.cshtml.g.cs
