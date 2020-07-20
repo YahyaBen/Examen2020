@@ -181,6 +181,10 @@ namespace Examen_YB.Controllers
             }
             return View(patient);
         }
+        public async Task<IActionResult> IndexBis()
+        {
+            return View(await _context.Patients.Where(m=> m.Deces == false).ToListAsync());
+        }
     }
 
                
