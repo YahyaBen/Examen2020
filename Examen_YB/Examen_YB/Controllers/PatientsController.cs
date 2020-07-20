@@ -53,9 +53,9 @@ namespace Examen_YB.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nom,Prenom,Age,Sexe,Deces")] Patient patient)
+        public async Task<IActionResult> Create([Bind("Id,Nom,Prenom,Age,Sexe")] Patient patient)
         {
-            
+            patient.Deces = false;
             if (ModelState.IsValid)
             {
                 _context.Add(patient);
